@@ -25,51 +25,55 @@
                 <img src="images/logo_coffeeshop_dark.svg" alt="Logotipo de la Biblioteca Triple Peaks"
                     class="nav__logo">
                 <ul class="nav__links">
-                    <li><a href="#recetas" class="nav__link" aria-label="Recetas">Recetas</a></li>
-                    <li><a href="#recerva una mesa" class="nav__link" aria-label="Recerva una mesa">Reserva una mesa</a>
+                    <li><a href="#recipes" class="nav__link" aria-label="Recetas">Recetas</a></li>
+                    <li><a href="#recervation" class="nav__link" aria-label="Recerva una mesa">Reserva una mesa</a>
                     </li>
-                    <li><a href="#contactos" class="nav__link" aria-label="Miembro">Contactos</a></li>
+                    <li><a href="#contacts" class="nav__link" aria-label="Miembro">Contactos</a></li>
                 </ul>
             </nav>
             <div class="header__content">
-                <div>
-                    <h1 class="header__title">Café de especialidad en Triple Peaks</h1>
+                <div class="header__text">
+                    <h1 class="header__title">Café de especialidad<br><span id="span">Café en Triple Peaks</span></h1>
                     <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+                        <br>
                         para darte energía y
-                        motivar tu creatividad.</p>
+                        motivar tu creatividad.
+                    </p>
                 </div>
+                <img src="./images/inside_coffee_shop.png" alt="Ilustración 'Dentro de la biblioteca'"
+                    class="header__image">
             </div>
             <div class="header__footer">
-                <p>Horario: <br>Lunes a Viernes (de 10:00h a 19:00h)<br>Sábados y Domingos (de 11:00h a 18:00h)</p>
+                <p class="header__schedule">Horario: <br>Lunes a Viernes (de 10:00h a 19:00h)<br>Sábados y Domingos (de
+                    11:00h a 18:00h)</p>
                 <p class="header__address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
             </div>
         </header>
         <main class="content">
-            <section class="recipes">
-                <h2>Recetas</h2>
-                <p>Echa un vistazo a las recetas que hemos reunido para que elabores tus propios snacks.</p>
+            <section id="recipes" class="recipes">
+                <h2 class="content__title">Recetas</h2>
+                <p class="content__description">Echa un vistazo a las recetas que hemos reunido para que elabores tus
+                    propios snacks.</p>
                 <div class="container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=m3KPXCjGKu08uOEn"
-                        title="YouTube video player" frameborder="0"
+                    <iframe class="iframe" width="560" height="315"
+                        src="https://www.youtube.com/embed/j6VlT_jUVPc?si=m3KPXCjGKu08uOEn" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <p>Receta en Aeropress</p>
-                    <p>~5 min</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=NjGZEfUIK0tWlDvs"
-                        title="YouTube video player" frameborder="0"
+                    <precipes__name>Receta en Aeropress</precipes__name>
+                    <p class="recipes__time">~5 min</p>
+                    <iframe class="iframe" width="560" height="315"
+                        src="https://www.youtube.com/embed/st571DYYTR8?si=NjGZEfUIK0tWlDvs" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <p>Receta en cafetera francesa</p>
                     <p>~15 min</p>
                 </div>
-
-
-
-
             </section>
-            <section class="reservation">
-                <h2>Reserva una mesa</h2>
-                <form action="" method="post">
+            <section id="reservation" class="reservation">
+                <!-- <h2>Reserva una mesa</h2>
+                <form action="process_reservation.php" method="post">
                     <ul>
                         <li>
                             <label for="nombre">Nombre</label>
@@ -81,16 +85,16 @@
                         </li>
                         <li>
                             <label for="date">Fecha y hora</label>
-                            <input type="date" id="date" placeholder="Fecha y hora" name="date">
+                            <input type="datetime-local" id="date" placeholder="Fecha y hora" name="date">
                         </li>
                         <li>
                             <label for="email">Tu correo electrónico</label>
-                            <input type="email" id="email" placeholder="Tu correo electrónico">
+                            <input type="email" id="email" placeholder="Tu correo electrónico" name="email">
                         </li>
                     </ul>
-                </form>
-
+                </form> -->
             </section>
+            <section id="contacts" class="contacts"></section>
         </main>
         <footer id="footer" class="footer"></footer>
     </div>
