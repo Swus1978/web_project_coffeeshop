@@ -6,6 +6,8 @@
     padding: 0 20px;
     min-height: 720px;
     max-height: 800px;
+    min-width: 1100px;
+    max-width: 1600px;
     height: 100vh;
 }
 
