@@ -4,6 +4,8 @@
     line-height: 20px;
     margin: 0 auto;
     padding: 0 20px;
+    min-height: 720px;
+    max-height: 800px;
 }
 
 .header {
