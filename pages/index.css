@@ -81,7 +81,8 @@
 }
 
 .header__title {
-    margin-top: auto;
+    position: absolute;
+    top: 183px;
 }
 
 .header__text {
@@ -89,17 +90,16 @@
     padding: 0;
 }
 
-.header__text-accent {
+.span-accent {
     color: #2F80ED;
 }
 
-.header__text-title {
-    font-family: "Noto Serif", serif;
+h1 {
+    font-family: "Noto Serif";
     font-style: italic;
     font-weight: normal;
     font-size: 58px;
     line-height: 72px;
-    color: #2F80ED;
 }
 
 .header__description {
@@ -119,17 +119,27 @@
     top: 124px;
 }
 
-.header__address {
+.header__footer-content {
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+    margin: 0;
+}
+
+.header__paragraph {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    position: absolute;
+    color: #838383;
+}
+
+.header__footer-address {
+    position: relative;
     bottom: 40px;
     right: 80px;
-    margin: 0;
-    color: #838383;
+
 }
 
 .header__footer {
@@ -141,10 +151,9 @@
     box-sizing: border-box;
 }
 
-
+/* Content styles */
 .content {
     padding: 20px 0;
-    margin-top: 225px;
 }
 
 .recipes {
@@ -192,7 +201,8 @@
 .recipes__container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    /* Align items to the top */
     gap: 40px;
     position: relative;
     overflow: hidden;
@@ -205,23 +215,23 @@
     height: 100vh;
 }
 
-.recipes__video-item {
-    position: relative;
-    margin-bottom: 24px;
-}
 
 .recipes__iframe {
+    position: relative;
+    top: 215px;
     width: 480px;
     height: 273px;
+    display: block;
+    margin: 0;
 }
 
-.recipe-info {
-    position: absolute;
-    left: 0;
+.recipe__info-one,
+.recipe__info-two {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 24px 0;
+    width: 480px;
+    margin-top: 215px;
+
 }
 
 .recipes__video-caption,
@@ -235,5 +245,6 @@
     margin: 0;
 }
 
-
-.footer {}
+.footer {
+    /* Your footer styles can be added here */
+}
