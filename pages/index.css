@@ -159,12 +159,12 @@ h1 {
     background-size: cover;
 }
 
-.recipes__subtitle,
+.recipes__title,
 .recipes__description {
     color: #ffffff;
 }
 
-.recipes__subtitle {
+.recipes__title {
     margin-bottom: 100px;
     font-family: "Inter";
     font-style: normal;
@@ -173,7 +173,7 @@ h1 {
     line-height: 52px;
 }
 
-.recipes__subtitle {
+.recipes__title {
     position: relative;
     left: 80px;
     top: 100px;
