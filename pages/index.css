@@ -159,12 +159,12 @@ h1 {
     background-size: cover;
 }
 
-.recipes__title,
+.recipes__subtitle,
 .recipes__description {
     color: #ffffff;
 }
 
-.recipes__title {
+.recipes__subtitle {
     margin-bottom: 100px;
     font-family: "Inter";
     font-style: normal;
@@ -173,19 +173,12 @@ h1 {
     line-height: 52px;
 }
 
-.recipes__title {
-    position: relative;
-    left: 80px;
-    top: 100px;
-    max-width: 580px;
-}
-
 .recipes__subtitle {
     position: relative;
     left: 80px;
-    top: 24px;
-    max-width: 438px;
+    top: 100px;
 }
+
 
 .recipes__description {
     position: relative;
@@ -247,5 +240,5 @@ h1 {
 }
 
 .footer {
-    /* Add your footer styles here */
+
 }
