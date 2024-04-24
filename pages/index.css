@@ -72,7 +72,6 @@
     color: #2F80ED;
 }
 
-
 .header__content {
     position: relative;
     left: 80px;
@@ -202,11 +201,11 @@ h1 {
     gap: 40px;
 }
 
-.recipe__item {
-    display: flex;
+.recipes__item {
+    display: inline-block;
     flex-direction: column;
-    align-items: flex-start;
-    /* Align items to the left */
+    align-items: center;
+    margin: 0 24px;
 }
 
 .recipes__iframe {
@@ -217,7 +216,6 @@ h1 {
 .recipes__info-text {
     display: flex;
     justify-content: space-between;
-    /* Distribute space between the caption and time */
     align-items: center;
     font-family: "Inter";
     font-style: normal;
@@ -227,7 +225,6 @@ h1 {
     color: #ffffff;
     margin-top: 10px;
     width: 480px;
-    /* Same width as iframe */
 }
 
 .recipes__video-caption,
@@ -245,7 +242,6 @@ h1 {
     position: relative;
 }
 
-
-
-
-.footer {}
+.footer {
+    /* Add your footer styles here */
+}
