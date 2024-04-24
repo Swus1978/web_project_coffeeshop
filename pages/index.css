@@ -82,6 +82,7 @@
 .header__title {
     position: absolute;
     top: 183px;
+    max-width: 709px;
 }
 
 .span-accent {
@@ -105,6 +106,7 @@ h1 {
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    max-width: 683px
 }
 
 .header__image {
@@ -158,11 +160,11 @@ h1 {
 }
 
 .recipes__title,
-.recipes__subtitle {
+.recipes__description {
     color: #ffffff;
 }
 
-.recipes__title-text {
+.recipes__title {
     margin-bottom: 100px;
     font-family: "Inter";
     font-style: normal;
@@ -186,6 +188,8 @@ h1 {
 }
 
 .recipes__description {
+    position: relative;
+    left: 80px;
     font-family: "Noto Serif";
     font-style: normal;
     font-weight: normal;
