@@ -160,7 +160,7 @@ h1 {
 }
 
 .recipes__title,
-.recipes__description {
+.recipes__subtitle {
     color: #ffffff;
 }
 
@@ -180,8 +180,9 @@ h1 {
 }
 
 
-.recipes__description {
+.recipes__subtitle {
     position: relative;
+    top: 24px;
     left: 80px;
     font-family: "Noto Serif";
     font-style: normal;
@@ -240,5 +241,5 @@ h1 {
 }
 
 .footer {
-
+    /* Add your footer styles here */
 }
