@@ -43,6 +43,7 @@
     height: 60px;
     color: #ffffff;
     max-width: 385px;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .form__button:hover {
