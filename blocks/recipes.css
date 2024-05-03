@@ -84,3 +84,8 @@
     color: #ffffff;
     margin: 0;
 }
+
+
+.recipe__content-wrapper {
+    position: relative;
+}
