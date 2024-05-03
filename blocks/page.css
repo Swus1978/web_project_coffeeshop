@@ -10,3 +10,7 @@
     max-width: 1600px;
     height: 100vh;
 }
+
+.span-accent {
+    color: #2F80ED;
+}
