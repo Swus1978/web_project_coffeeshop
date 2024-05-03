@@ -1,36 +1,7 @@
-/* form.css */
-/* Apply box-sizing border-box only to form elements */
-.reservation__form *,
 .form * {
     box-sizing: border-box;
 }
 
-/* Estilos para el bloque reservation */
-.reservation__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 100px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
-
-.reservation__form {
-    position: relative;
-    top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 385px;
-    margin: 32px auto;
-}
 
 .form__label {
     margin: 8px;
