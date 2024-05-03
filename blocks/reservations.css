@@ -1,0 +1,10 @@
+/* reservations.css */
+.reservation {
+    position: relative;
+    background-color: #D9E7FF;
+    height: 100vh;
+    background-image: url("/images/background_reservation.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

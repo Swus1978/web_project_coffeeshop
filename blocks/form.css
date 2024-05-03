@@ -1,0 +1,93 @@
+/* form.css */
+/* Apply box-sizing border-box only to form elements */
+.reservation__form *,
+.form * {
+    box-sizing: border-box;
+}
+
+/* Estilos para el bloque reservation */
+.reservation__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.reservation__form {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 385px;
+    margin: 32px auto;
+}
+
+.form__label {
+    margin: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form__input {
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+.form__input[type="email"] {
+    padding-left: 20px;
+}
+
+.form__button {
+    position: relative;
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2f80ed;
+    margin: 32px;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    max-width: 385px;
+}
+
+.form__button:hover {
+    opacity: 0.7;
+}
+
+.form__checkbox {
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.form__label-checkbox {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 120px;
+}
