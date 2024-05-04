@@ -60,6 +60,7 @@
 }
 
 .recipes__info-text {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +70,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #ffffff;
-    margin-top: 10px;
+    top: 10px;
     width: 480px;
 }
 
