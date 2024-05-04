@@ -39,7 +39,7 @@
 /* Social element inside footer block */
 .footer__social-heading-title {
     position: relative;
-    left: 1242px;
+    left: 91%;
     bottom: 320px;
     display: block;
     align-items: center;
@@ -53,7 +53,7 @@
 }
 
 .footer__social-heading {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* List element inside footer block */
@@ -64,7 +64,7 @@
     position: relative;
     margin: 0;
     padding: 0;
-    left: 96px;
+    left: 580px;
     bottom: 200px;
     list-style: none;
 
@@ -72,9 +72,9 @@
 
 /* List item element inside footer block */
 .footer__list-item {
-    display: block;
-    align-items: end;
     position: relative;
+    display: block;
+    align-items: center;
     justify-content: flex-end;
     bottom: 108px;
     left: 1142px;

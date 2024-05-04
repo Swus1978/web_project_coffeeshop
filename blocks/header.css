@@ -7,7 +7,6 @@
     max-height: 800px;
     padding: 30px 80px 40px;
     position: relative;
-    box-sizing: border-box;
     background-color: #FFFFFF;
     background-image: url("/images/background_header.svg");
     background-repeat: no-repeat;

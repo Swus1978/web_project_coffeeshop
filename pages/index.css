@@ -11,3 +11,453 @@
 @import url("../blocks/reservation.css");
 @import url("../blocks/form.css");
 @import url("../blocks/footer.css");
+
+
+
+
+
+/* .page {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 0 20px;
+    min-width: 1100px;
+    max-width: 1600px;
+    height: 100vh;
+}
+
+/* Navigation styles */
+/* .nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+
+.nav__logo {
+    position: relative;
+    top: 30px;
+    right: 180px;
+    margin-left: 30px;
+    bottom: 183px;
+    margin-right: 30px;
+    height: 39px;
+    width: 105px;
+}
+
+.nav__links {
+    position: absolute;
+    right: 80px;
+    top: 30px;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav__link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+    color: #2F80ED;
+}
+
+/* header.css */
+/* .header {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    padding: 30px 80px 40px;
+    position: relative;
+    background-color: #FFFFFF;
+    background-image: url("/images/background_header.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.header__image {
+    position: absolute;
+    top: 124px;
+    right: 5px;
+    width: 646px;
+    height: 568px;
+}
+
+.header__title {
+    position: absolute;
+    top: 183px;
+    max-width: 709px;
+    margin-right: 80px;
+}
+
+h1 {
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+}
+
+.header__description {
+    position: relative;
+    margin-top: 250px;
+    top: 124px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 683px
+}
+
+.header__footer-content {
+    position: relative;
+    top: 83px;
+    right: 5px;
+}
+
+.header__footer-address {
+    position: absolute;
+    top: 83px;
+    right: 80px;
+    margin-block-start: 80px;
+}
+
+.header__paragraph {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #838383;
+}
+
+.header__footer {
+    position: relative;
+    margin-top: 40px;
+    top: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* recipes.css */
+/* .recipes {
+    position: relative;
+    background-color: #0A2850;
+    height: 100vh;
+    background-image: url("/images/background_recipes.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.recipes__title,
+.recipes__subtitle {
+    color: #ffffff;
+}
+
+.recipes__title {
+    margin-bottom: 100px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.recipes__title {
+    position: relative;
+    left: 80px;
+    top: 100px;
+}
+
+.recipes__subtitle {
+    position: relative;
+    top: 24px;
+    left: 80px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.recipes__videos {
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.recipes__item {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 24px;
+}
+
+.recipes__iframe {
+    width: 480px;
+    height: 273px;
+}
+
+.recipes__info-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+    width: 480px;
+}
+
+.recipes__video-caption,
+.recipes__time {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* reservations.css */
+/* .reservation {
+    position: relative;
+    background-color: #D9E7FF;
+    height: 100vh;
+    background-image: url("/images/background_reservation.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.reservation__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.reservation__form {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 385px;
+    margin: 32px auto;
+}
+
+.form * {
+    box-sizing: border-box;
+}
+
+
+.form__label {
+    margin: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+.form__input {
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    height: 60px;
+}
+
+.form__input[type="email"] {
+    padding-left: 20px;
+}
+
+.form__button {
+    position: relative;
+    border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #2f80ed;
+    margin: 32px;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    max-width: 385px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.form__button:hover {
+    opacity: 0.7;
+}
+
+.form__checkbox {
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.form__label-checkbox {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 120px;
+} */
+
+
+/* Footer block */
+/* .footer {
+    position: relative;
+    background-color: #0A2850;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+} */
+
+/* Logo element inside footer block */
+/* .footer__logo {
+    position: relative;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 80px;
+}
+
+.footer__logo-image {
+    z-index: 2;
+    height: 39px;
+    width: 105px;
+} */
+
+/* Circle element inside footer block */
+/* .footer__circle {
+    position: relative;
+    bottom: 128px;
+    right: 44px;
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+    background-color: #2F80ED;
+    overflow: hidden;
+
+} */
+
+/* Social element inside footer block */
+/* .footer__social-heading-title {
+    position: relative;
+    left: 1680px;
+    bottom: 320px;
+    display: block;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.footer__social-heading {
+    margin-bottom: 10px;
+} */
+
+/* List element inside footer block */
+/* .footer__list {
+    display: block;
+    align-items: end;
+    justify-content: flex-end;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 540px;
+    bottom: 200px;
+    list-style: none;
+
+} */
+
+/* List item element inside footer block */
+/* .footer__list-item {
+    display: block;
+    align-items: end;
+    position: relative;
+    justify-content: flex-end;
+    bottom: 108px;
+    left: 1142px;
+    padding: 16px;
+
+} */
+
+/* Social link element inside footer block */
+/* .footer__social-link {
+    text-decoration: none;
+    color: inherit;
+} */
+
+/* Social icon element inside footer block */
+/* .footer__social-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.footer__copyright {
+    position: absolute;
+    bottom: 108px;
+    left: 80px;
+    margin-bottom: 60px;
+}
+
+.footer__copyright-text,
+.footer__social-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+} */

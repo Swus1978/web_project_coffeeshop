@@ -15,18 +15,16 @@
 }
 
 .recipes__title {
+    position: relative;
+    left: 80px;
+    top: 100px;
     margin-bottom: 100px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-}
-
-.recipes__title {
-    position: relative;
-    left: 80px;
-    top: 100px;
+    max-width: 580px
 }
 
 .recipes__subtitle {
@@ -38,6 +36,7 @@
     font-weight: normal;
     font-size: 20px;
     line-height: 30px;
+    max-width: 438px
 }
 
 .recipes__videos {
