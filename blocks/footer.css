@@ -7,9 +7,6 @@
     z-index: 1;
 }
 
-/* Content element inside footer block */
-.footer__content {}
-
 /* Logo element inside footer block */
 .footer__logo {
     position: relative;
@@ -42,11 +39,9 @@
 /* Social element inside footer block */
 .footer__social-heading-title {
     position: relative;
-    right: 20px;
-    margin-left: 990px;
-    padding-left: 90px;
-    bottom: 300px;
-    display: flex;
+    left: 1242px;
+    bottom: 320px;
+    display: block;
     align-items: center;
     justify-content: center;
     font-family: "Inter";
@@ -57,14 +52,18 @@
     color: #fff;
 }
 
+.footer__social-heading {
+    margin-bottom: 10px;
+}
+
 /* List element inside footer block */
 .footer__list {
     display: block;
     align-items: end;
     justify-content: flex-end;
     position: relative;
-    margin-right: 80px;
-    padding-right: 80px;
+    margin: 0;
+    padding: 0;
     left: 80px;
     bottom: 200px;
     list-style: none;
@@ -78,20 +77,22 @@
     position: relative;
     justify-content: flex-end;
     bottom: 108px;
-    left: 1180px;
+    left: 1142px;
+    padding: 16px;
 
 }
 
 /* Social link element inside footer block */
 .footer__social-link {
     text-decoration: none;
+    color: inherit;
 }
 
 /* Social icon element inside footer block */
 .footer__social-icon {
-    position: relative;
-    right: 10px;
-    margin-top: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
 }
 
 .footer__copyright {
