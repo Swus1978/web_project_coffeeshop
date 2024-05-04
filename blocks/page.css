@@ -3,11 +3,11 @@
     box-sizing: border-box;
 }
 
-/* .page {
+.page {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 20px;
     margin: 0 auto;
     min-width: 1100px;
     max-width: 1600px;
-} */
+}
