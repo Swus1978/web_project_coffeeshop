@@ -39,7 +39,7 @@
 /* Social element inside footer block */
 .footer__social-heading-title {
     position: relative;
-    left: 91%;
+    left: 80%;
     bottom: 320px;
     display: block;
     align-items: center;
@@ -54,20 +54,19 @@
 
 .footer__social-heading {
     margin-bottom: 20px;
+    position: relative;
 }
 
 /* List element inside footer block */
 .footer__list {
     display: block;
-    align-items: end;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: flex-end;
     position: relative;
-    margin: 0;
-    padding: 0;
-    left: 580px;
-    bottom: 200px;
-    list-style: none;
-
+    margin-bottom: 10px;
+    left: 77.5%;
+    bottom: 320px;
 }
 
 /* List item element inside footer block */
@@ -75,9 +74,9 @@
     position: relative;
     display: block;
     align-items: center;
-    justify-content: flex-end;
+    /* justify-content: flex-end;
     bottom: 108px;
-    left: 1142px;
+    left: 1142px; */
     padding: 16px;
 
 }
