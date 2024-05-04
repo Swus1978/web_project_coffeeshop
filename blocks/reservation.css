@@ -3,6 +3,7 @@
     position: relative;
     background-color: #D9E7FF;
     height: 100vh;
+    width: 100%;
     background-image: url("/images/background_reservation.svg");
     background-repeat: no-repeat;
     background-position: center center;
