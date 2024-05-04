@@ -87,25 +87,23 @@
                 </div>
             </section>
             <section class="reservation" id="reservation">
-                <div class="reservation">
-                    <h2 class="reservation__title">Reservación</h2>
-                    <form class=" form reservation__form">
-                        <label for="nombre" class="form__label">Nombre *</label>
-                        <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Nombre">
-                        <label for="personas" class="form__label">Número de personas *</label>
-                        <input type="number" id="personas" name="personas" class="form__input" min="1" max="8"
-                            placeholder="1-8">
-                        <label for="fecha" class="form__label">Fecha y hora *</label>
-                        <input type="datetime-local" id="fecha" name="fecha" class="form__input">
-                        <label for="email" class="form__label">Correo electrónico *</label>
-                        <input type="email" id="email" name="email" class="form__input" placeholder="email@email.com">
-                        <button type="submit" class="form__button">Reservar una mesa</button>
-                        <label for="terminos" class="form__label form__label-checkbox">
-                            <input type="checkbox" id="terminos" name="terminos" class="form__checkbox" checked>
-                            Acepto los términos y condiciones
-                        </label>
-                    </form>
-                </div>
+                <h2 class="reservation__title">Reservación</h2>
+                <form class=" form reservation__form">
+                    <label for="nombre" class="form__label">Nombre *</label>
+                    <input type="text" id="nombre" name="nombre" class="form__input" placeholder="Nombre">
+                    <label for="personas" class="form__label">Número de personas *</label>
+                    <input type="number" id="personas" name="personas" class="form__input" min="1" max="8"
+                        placeholder="1-8">
+                    <label for="fecha" class="form__label">Fecha y hora *</label>
+                    <input type="datetime-local" id="fecha" name="fecha" class="form__input">
+                    <label for="email" class="form__label">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" class="form__input" placeholder="email@email.com">
+                    <button type="submit" class="form__button">Reservar una mesa</button>
+                    <label for="terminos" class="form__label form__label-checkbox">
+                        <input type="checkbox" id="terminos" name="terminos" class="form__checkbox" checked>
+                        Acepto los términos y condiciones
+                    </label>
+                </form>
             </section>
         </main>
         <footer class="footer" id="footer">
@@ -118,19 +116,20 @@
                     <div class="footer__social-heading">
                         <h3 class="footer__social-heading-title">Redes sociales</h3>
                     </div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__social-link" target="_blank">
+                                <img src="images/facebook_white.svg" alt="Facebook" class="footer__social-icon">Facebook
+                            </a>
+                        </li>
+                        <li class="footer__list-item">
+                            <a href="#" class="footer__social-link" target="_blank">
+                                <img src="images/instagram_white.svg" alt="Instagram"
+                                    class="footer__social-icon">Instagram
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="footer__list">
-                    <li class="footer__list-item">
-                        <a href="#" class="footer__social-link" target="_blank">
-                            <img src="images/facebook_white.svg" alt="Facebook" class="footer__social-icon">Facebook
-                        </a>
-                    </li>
-                    <li class="footer__list-item">
-                        <a href="#" class="footer__social-link" target="_blank">
-                            <img src="images/instagram_white.svg" alt="Instagram" class="footer__social-icon">Instagram
-                        </a>
-                    </li>
-                </ul>
                 <div class="footer__copyright">
                     <p class="footer__copyright-text">&copy;2024 Juan Gustavo Quinones</p>
                 </div>
