@@ -80,3 +80,26 @@ h1 {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Media query */
+@media (max-width: 767px) {
+    .header__image {
+        width: 100%;
+        height: auto;
+        top: 0;
+        right: 0;
+    }
+
+    .header__title {
+        top: 20px;
+        right: 20px;
+        max-width: none;
+        margin-right: 0;
+    }
+
+    .header__footer-address {
+        top: 160px;
+        right: 20px;
+        margin-block-start: 0;
+    }
+}
