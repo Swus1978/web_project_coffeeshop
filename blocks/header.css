@@ -59,7 +59,7 @@ h1 {
 
 .header__footer-address {
     position: absolute;
-    top: 155px;
+    top: 180px;
     right: 80px;
     margin-block-start: 80px;
 }
@@ -75,7 +75,6 @@ h1 {
 
 .header__footer {
     position: relative;
-    margin-top: 40px;
     top: 40px;
     display: inline-flex;
     align-items: center;
